@@ -15,14 +15,31 @@
   <h3>Week 1: Introduction & Documentation</h3> <br>
   <div class="row">
 
-      <p>Final Project Idea: Electronic Music Box</p>
+      <p>Week 4: Microcontroller Programming</p>
 
-      <p> One idea I have is to make an electronic music box, similar to the one in the video below. The music box in the video makes use of a microcontroller that controls a small MP3 module player. If I were to make this, I would want the music to start playing when I open the box and stop when I close the box using a detector switch. I like the feature of the box in the video where it plays the next song when the box is closed and reopened. I think it would also be fun to lasercut some interesting designs onto the box. This might make the project too complex, but I was also interested in the idea of adding LED lights that would react to the music like in the second video below. (I'm not sure if this would even be possible/would all fit in the box.)</p>
+      <p>This week's assignment was to program an Arduino board to do something. After watching some videos using a micrcocontroller to produce sound using a Piezo buzzer, I really wanted to try and create the Shepard tone. I figured out I would need 4 buzzers after looking at this diagram, but it seemed like I wouldn't have time to get these in time. A friend who owned an Arduino kit found a Piezo buzzer, which I got really excited about, but I couldn't figure out how to get it to sound. It also had no polarity, which I thought was weird.</p>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Xs99jWn9MHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img src="./shepard_ton.png" width="600" alt="Shepard Tone Diagram">
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/CfLB87Fxwf4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <video controls>
+            <source src="silent_piezo.mp4" type="video/mp4">
+      </video>
 
+      <p>Still wanting to do something music related, I had the idea of visualizing music through LEDs. I would assign 1 LED to a particular note, and they would light up if a note was "played." The song I had in mind for this project was Bach's Toccata and Fugue in D Minor (the really famous one with the ominous beginning).</p>
+
+      <p>After watching some videos demonstrating how to use multiple LEDs, I tried it out with 3, and then added 3 more while also manipulating the on/off and the delays to make it look like the beginning of the Toccata.</p>
+
+      <video controls>
+            <source src="three_LED.mp4" type="video/mp4">
+      </video>
+
+      <p>After some trial and error, I ended up with this:</p>
+
+      <video controls>
+            <source src="toccata.mp4" type="video/mp4">
+      </video>
+
+      <p>Although a downside to this is that the times are all hardcoded, it was a fun first-time project with the microcontroller. If I ever get my hands on a sound sensor, it would be cool to try and use the input for the LEDs.
 
   </div>
 

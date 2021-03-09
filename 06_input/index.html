@@ -29,11 +29,19 @@
 
       <img src="./microphone.JPG" width="600" alt="Microphone Circuit">
 
-      <p> I decided to calibrate this one by playing a song and pressing the side buttons on my iPhone until it was the max volume. So I found out that it takes 16 pushes to get all the way to the max volume. The microphone didn't actually pick up any changes until the 3rd "level". So if you count the peaks starting from 3, you'll get to 16. Each increment didn't reflect the same amount of change in the readings, so I found that interesting. Could this mean that for some volume levels, it's no louder than some of the previous levels? </p>
+      <p> I decided to calibrate this one by playing a song and pressing the side buttons on my iPhone until it was the max volume. When I ended up trying this, I didn't get very clear readings since the "loudness" of the signal was also influenced by the beat and because the song also had softer and louder sections. </p>
+
+      <p> To address this problem, I ended up going to a piano app I had on my phone and playing the same chord but increasing the volume each time I played it. This ended up producing very clear readings on the serial plotter. </p>
+
+      <p> I found out that it takes 16 pushes to get all the way to the max volume. The microphone didn't actually pick up any changes until the 3rd "level". So if you count the peaks starting from 3, you'll get to 16. Each increment didn't reflect the same amount of change in the readings, so I found that interesting. Could this mean that for some volume levels, it's no louder than some of the previous levels? </p>
 
       <video width="600" controls>
             <source src="chords.mp4" type="video/mp4">
       </video>
+
+      <p> I replayed the chords, but had the serial monitor open so I could get the sensor readings. They're slightly different from the peaks in the serial plotter, but I observed the same trend of some volume level increases not translating to a higher sensor reading.</p>
+
+      <img src="./mic_readings.png" width="600" alt="Microphone Sensor Values">
 
 
 

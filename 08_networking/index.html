@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PHYSCI 70: Intro to Digital Fabrication </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="../style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+  <h3>Week 8: Networking</h3> <br>
+  <div class="row">
+
+      <p> Last week, I knew I wanted to use buzzers, so I followed the buzzer workshop on the website first and was able to get a sound playing through the buzzer. A few weeks ago, when I had tried to use the buzzer, I couldn't get it to make any sound other than a faint clicking noise. I think this was a connection issue because I was able to follow the workshop without any major problems.</p>
+
+      <p> To create a melody, I then browsed through different examples online and played around creating short melodies after creating a "pitches.h" file with all of the frequencies I needed. </p>
+
+      <p> For the assignment integrating one input device and one output device, I ended up with a simple buzzer-button circuit that would play a short melody when I pushed the button.</p>
+
+      <video width="600" controls>
+            <source src="IMG_3270.mp4" type="video/mp4">
+      </video>
+
+      <p> For this week, I started off following through the Huzzah Tutorials for LAN Server and Bluetooth. While it was at first a little tricky to actually get my hotspot connected. After figuring out the pinout of the Huzzah and connecting an LED, I was able to control the light on my server.
+
+      <video width="300" controls>
+            <source src="IMG_2916.mp4" type="video/mp4">
+      </video>
+
+      <p> I was also interested in using an app to connect to the Huzzah over Bluetooth, so I downloaded the BLE Scanner and tried to control the LED through that. Connecting the app to the ESP32 wasn't too bad - there was just a lot of devices detected so it involved a bit of scrolling and looking for the ESP32, but I was a bit confused at the step of going to CUSTOM SERVICE and writing something. I figured it out eventually and typed in 1 or 0 as Text, and this was able to turn the light on and off!
+
+      <video width="600" controls>
+            <source src="IMG_0345.mp4" type="video/mp4">
+      </video>
+
+
+  </div>
+
+
+
+
+</div>
+
+</body>
+</html>
